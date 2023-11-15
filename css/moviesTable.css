@@ -1,7 +1,5 @@
 body {
   overflow-x: hidden;
-}
-* {
   padding: 0;
   margin: 0;
 }
@@ -9,11 +7,14 @@ table {
   width: 100%;
   padding: 0;
   margin: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 
 th,
 td {
-  padding: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
   text-align: left;
 }
 
@@ -23,11 +24,10 @@ td {
   padding: 20px;
 }
 .column1 p {
-  margin-top: 2em;
-  font-size: 1.4em;
+  margin-top: 1.9em;
+  font-size: 1.38em;
   margin-bottom: 2em;
 }
-
 .column2 {
   width: 5%;
 }
@@ -39,12 +39,15 @@ td {
 .menu-head {
   padding: 20px;
   color: powderblue;
-  width: 30%;
+  width: 40%;
+}
+.menu-a {
+  width: 60%;
 }
 .menu-a a {
   color: wheat;
   text-decoration: none;
-  margin-left: 25px;
+  margin-left: 19px;
   font-size: 25px;
   text-align: right;
 }
@@ -72,12 +75,22 @@ td {
 }
 
 .footer-head {
-  padding: 20px;
   color: powderblue;
-  width: 50%;
+  width: 40%;
+  text-align: right;
 }
 .footer-contact {
-  padding: 20px;
-  width: 50%;
+  width: 60%;
   color: white;
+}
+.left-picture {
+  width: 20%;
+  background-color: pink;
+  justify-content: center;
+  height: auto;
+  padding: 0;
+}
+.left-picture img {
+  max-width: 100%;
+  margin-bottom: 0.7em;
 }
